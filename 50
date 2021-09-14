@@ -1,0 +1,6 @@
+a=input().split('.')  
+b=['htm','html','php']   
+if a[-1] in b:                
+    print('Это веб-страница')   
+else:                           
+    print('Что-то другое')
